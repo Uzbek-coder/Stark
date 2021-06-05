@@ -30,13 +30,9 @@ body._lock {
 	justify-content: space-between;
 	min-height: 70px;
 }
-.header__logo {
-	border-radius: 50%;
-	background-color: #fff;
-	position: relative;
+.header__logo > img{
 	z-index: 5;
-	width: 40px;
-	height: 40px;
+	width: 100px;
 }
 .header__menu {
 
@@ -94,6 +90,14 @@ body._touch .menu__list > li {
 	}
 	.menu__list > li {
 		padding: 10px 0;
+	}
+	.header__logo{
+		z-index: 50;
+	}
+	.header__logo>img {
+		z-index: 50;
+		width: 50px;
+		display: block;
 	}
 }
 @media (max-width: 767px) {
