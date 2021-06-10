@@ -656,7 +656,7 @@ body._touch .menu__list > li {
 .contact__name {
 	margin: 50px 0 20px 0;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
 .contact__name > label {
@@ -671,10 +671,10 @@ body._touch .menu__list > li {
 	padding: 10px;
 }
 .contact__num {
-	margin: 20px 0;
+	margin: 20px 10px;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
+	justify-content: space-around;
 }
 .contact__num>label {
 	font-size: 18px;
@@ -692,7 +692,7 @@ body._touch .menu__list > li {
 .contact__email {
 	margin: 20px 0;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
 
